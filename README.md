@@ -32,18 +32,18 @@ This project uses descriptive analysis at the level of the film.  Information wi
 ## Results
 A successful film is defined as one that has received votes cast, average ratings, and net domestic profits above the average.  
 
-* The genres most frequently associated with films meeting these criteria are most likely to be of the "Mystery", "Crime" and "Adventure" genres.  It must be noted however that generating a film of the "Adventure" genre carries somewhat more risk as it is associated with production budgets between 4 - 5 times greater than the other two genres.
+* The genres most frequently associated with films meeting these criteria are most likely to be of the "Mystery", "Crime" and "Adventure" genres.  It must be noted however that generating a film of the "Adventure" genre carries somewhat more risk as it is associated with production budgets 4-5 times greater than the other two genres.
 
 * The directors most frequently associated with films of these three genres are: David Fincher, David Villeneuve, Christopher Nolan (highest rating, highest votes), and David O'Russel (highest net domestic profit).
 
-* The Directors among the top producers of successful films who could likely work on a wide variety of projects with Microsoft are David Fincher and Christopher Nolan.
+* The directors among the top producers of successful films who could likely work on a wide variety of projects with Microsoft are David Fincher and Christopher Nolan.
 
 ## Conclusions
 
 This analysis leads to three recommendations to help Microsoft's new studio lead decide on a film project:
-- ** Focus on genres associated with the most successful movies and moderate financial risk.**
-- ** Hire the director most capable of realizing the genres associated with the most successful movies **
-- ** Hire the director who is familiar with a broad range of genres and may be able to support future work. **
+- Focus on genres associated with the most successful movies and moderate financial risk.
+- Hire the director most capable of realizing the genres associated with the most successful movies. 
+- Hire the director who is familiar with a broad range of genres and may be able to support future work. 
 
 ## Limitations and Next Steps
 Limitations of this approach stem from not using all of the listed genres for a given film.  While this avoided double or triple counting the success factors associated with a given film, it may have under represented certain film genres.  Future work could explore ways of casting the compound genre differently
