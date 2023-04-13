@@ -43,12 +43,12 @@ A successful film is defined as one that has received votes cast, average rating
 This analysis leads to three recommendations to help Microsoft's new studio lead decide on a film project:
 - Focus on genres associated with the most successful movies and moderate financial risk.
 - Hire the director most capable of realizing the genres associated with the most successful movies. 
-- Hire the director who is familiar with a broad range of genres and may be able to support future work. 
+- Hire the director who is familiar with a broad range of genres and who can help develop Microsoft's creative vision. 
 
 ## Limitations and Next Steps
-Limitations of this approach stem from not using all of the listed genres for a given film.  While this avoided double or triple counting the success factors associated with a given film, it may have under represented certain film genres.  Future work could explore ways of casting the compound genre differently
+Limitations of this approach stem from not using all of the listed genres for a given film.  While this avoided double or triple counting the success factors associated with a given film, it may have under represented certain film genres.  
 
-Additional work could include looking at how certain actors influence the measures of success and what their absence or presence means for a particular film's return on investment.
+Future work could explore different ways of casting the compound genre classification, and the role of certain actors on a film's success measures.
 
 ## Repository Structure
 ```
