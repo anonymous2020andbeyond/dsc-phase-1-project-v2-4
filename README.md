@@ -23,7 +23,7 @@ In the folder `zippedData` are movie datasets from:
 
 This project makes use of the IMDB and The Numbers datasets, only. The IMDB database contains movie characteristics, number of votes cast, ratings, and principal role information.  The Numbers dataset contains financial information about movie production costs and earnings.  Rotten Tomatoes also contains rating data; however, the IMDb ratings database contains many more records and is thus assumed to be the more comprehensive source of this type of information.  Something similar can be said about the Box Office Mojo and The Numbers movie budget and earnings data.  Because these data files need to be joined in order to provide the insights the Microsoft studio lead requires, the files with the largest number of records are used to guarantee the largest possible set of data post merge.  The data from IMDB is organized in a SQLite database as shown below.
 
-![movie data erd](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project-v2-4/master/movie_data_erd.jpeg)
+![movie data erd](./images/movie_data_erd.jpeg)
 
 ### Methods
 
