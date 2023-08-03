@@ -21,39 +21,36 @@ In the folder `zippedData` are movie datasets from:
 * [TheMovieDB](https://www.themoviedb.org/)
 * [The Numbers](https://www.the-numbers.com/)
 
-<<<<<<< HEAD
 This project makes use of the IMDB and The Numbers datasets, only. The IMDB database contains movie characteristics, number of votes cast, ratings, and principal role information.  The Numbers dataset contains financial information about movie production costs and earnings.  Rotten Tomatoes also contains rating data; however, the IMDb ratings database contains many more records and is thus assumed to be the more comprehensive source of this type of information.  Something similar can be said about the Box Office Mojo and The Numbers movie budget and earnings data.  Because these data files need to be joined in order to provide the insights the Microsoft studio lead requires, the files with the largest number of records are used to guarantee the largest possible set of data post merge.  The data from IMDB is organized in a SQLite database as shown below.
-=======
-This project makes use of the IMDB and The Numbers datasets, only. The IMDB database contains movie characteristics, ratings, and principal role information.  The Numbers dataset contains financial information about the production of a broad range of movies.  Rotten Tomatoes alsoo contains rating data; however, the IMDb ratings database contains many more records and is thus assumed to be the more comprehensive source of this type of information.  Something similar can be said about the Box Office Mojo and The Numbers movie earnings data.  Because this data files needs to be joined in order to provide the insights the Microsoft studio lead requires, it was decided to use the files with the largest number of records to minimize the potential for data loss due to an unbalanced mere.  The data from IMDB is organized in a SQLite database as shown below.
->>>>>>> cb430e7ee7ceaf5514373f83289347421e1a2454
 
 ![movie data erd](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-1-project-v2-4/master/movie_data_erd.jpeg)
 
 ### Methods
 
-<<<<<<< HEAD
 This project uses descriptive analysis at the level of the film to arrive at a set of successful films based on available votes, ratings, and domestic box office earnings.  Additional descriptive analyses are used to gain insight about film genres and movie directors by aggregating the available data.
-=======
-This project uses descriptive analysis at the level of the film.  Information with respect to ratings and box office earnings is also aggregated up to the level of a film genre to determine which genres are most frequently associated with the highest rated and highest earning films.
->>>>>>> cb430e7ee7ceaf5514373f83289347421e1a2454
 
 ## Results
 A successful film is defined as one that has received votes cast, average ratings, and net domestic profits above the average.  
 
-* The genres most frequently associated with films meeting these criteria are most likely to be of the "Mystery", "Crime" and "Adventure" genres.  It must be noted however that generating a film of the "Adventure" genre carries somewhat more risk as it is associated with production budgets 4-5 times greater than the other two genres.
+* The genres most frequently associated with films meeting these criteria are most likely to be of the "Mystery", "Crime", and "Adventure" genres given their high ranking in at least two of the three criteria provided.  
+![genre_success_factor](./images/genre_success_factor.png)
+
+
+* It must be noted however that generating a film of the "Adventure" genre carries more risk as it is associated with production budgets 4 - 5 times greater than the other two genres.
+![genre_success_factor](./images/genre_budget_small.png)
 
 
 * The directors most frequently associated with films of these three genres are: David Fincher, David Villeneuve, Christopher Nolan (highest rating, highest votes), and David O'Russell (highest net domestic profit).
-
+![director_success](./images/director_success.png)
 
 * The directors among the top producers of successful films who could likely work on a wide variety of projects with Microsoft are David Fincher and Christopher Nolan.
 
 ## Conclusions
 
 This analysis leads to three recommendations to help Microsoft's new studio lead decide on a film project:
-- Focus on genres associated with the most successful movies that do not carry undo financial risk.
+- Focus on genres associated with the most successful movies such as "Mystery" or "Crime"  that do not carry undo financial risk.
 - Hire the director most capable of realizing the genres associated with the most successful movies. 
-- Hire the director who is familiar with a broad range of genres to help develop Microsoft's creative vision. 
+- Hire the director who is familiar with a broad range of genres to help develop Microsoft's creative vision.  The most attractive candidates are David Fincher and Christopher Nolan 
 
 ## Limitations and Next Steps
 Limitations of this approach stem from not using all of the listed genres for a given film.  While this avoided double or triple counting the success factors associated with a given film, it may have under represented certain film genres.  
@@ -70,8 +67,4 @@ Future work could explore different ways of casting the compound genre classific
 |--presentation.pdf
 |--student.ipynb
 ```
-<<<<<<< HEAD
    
-=======
-   
->>>>>>> cb430e7ee7ceaf5514373f83289347421e1a2454
