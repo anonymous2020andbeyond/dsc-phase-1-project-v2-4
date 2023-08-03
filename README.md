@@ -37,7 +37,7 @@ A successful film is defined as one that has received votes cast, average rating
 
 
 * It must be noted however that generating a film of the "Adventure" genre carries more risk as it is associated with production budgets 4 - 5 times greater than the other two genres.
-![genre_success_factor](./images/genre_budget_small.png)
+![genre_budget_small](./images/genre_budget_small.png)
 
 
 * The directors most frequently associated with films of these three genres are: David Fincher, David Villeneuve, Christopher Nolan (highest rating, highest votes), and David O'Russell (highest net domestic profit).
